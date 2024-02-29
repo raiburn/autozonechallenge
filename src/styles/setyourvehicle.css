@@ -1,0 +1,36 @@
+.searcher-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2rem;
+    padding: 16px;
+    background-color: #80808030;
+    border-top: 2px solid #f77e16;
+}
+  
+.searcher-select{
+    width: 24rem;
+    height: 3rem;
+    margin-top: 6px;
+    border-radius: 4px;
+    padding: 8px; /* Ajusta el padding del texto dentro del select */
+    font-size: 16px; /* Ajusta el tamaño del texto dentro del select */
+    color: gray; /* Cambia el color del texto para que se parezca al de un placeholder */
+    border: 1px solid #020000;
+    border-bottom: 2px solid #f77e16;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat 96% !important;
+ 
+}
+
+.searcher-select:disabled {
+    opacity: 0.5;
+    border: 1px solid #020000;
+  }
+  
+.searcher-select::-ms-expand{
+    display: none;
+}
